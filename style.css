@@ -1,0 +1,26 @@
+.container {
+    width:258px;
+    margin-right: auto;
+    margin-left: auto;
+}
+table {
+    height: 200px;
+    width:250px;
+}
+
+#result {
+    height: 25px;
+    width:240px;
+    margin-bottom: 1px;
+}
+button {
+    margin-top: 1px;
+    background-color: lightgray;
+    width:60px;
+}
+.long {
+    width: 120px;
+}
+tr {
+    text-align: center;
+}
