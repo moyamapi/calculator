@@ -1,7 +1,10 @@
 const result = document.getElementById("result")
 
 function edit(value) {
-    result.value = result.value + value;
+    if (result.value.slice(1)==="0"){
+        result.value = result.value + value;
+    }
+    else{result.value = result.value + value;}
   }
 function calc() {
     result.value = new Function(
@@ -11,9 +14,3 @@ function calc() {
 function reset() {
     result.value = "";
   }  
-function clickZero(){
-    if (result.value==="0"){
-        result.value = result.value + value;
-    
-    }
-}
