@@ -1,9 +1,7 @@
 const result = document.getElementById("result")
 
 function edit(value) {
-    if (result.value==='0.'||result.value==='0+'||result.value==='0-'||result.value==='0*'||result.value==='0/'){
-        result.value = result.value + value;
-    }else if(result.value==='0'){
+if(result.value==='0' && value!=='.'){
         result.value=value;
     }else {result.value = result.value + value;}
   }
